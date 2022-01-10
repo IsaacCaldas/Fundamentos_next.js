@@ -1,4 +1,5 @@
 import styles from '../styles/Styles.module.css'
+import Link from 'next/link'
 
 export default function Styles(){
     {/* Para fazer a referência a um CSS modularizado, no className será referenciado pelas {'nome dado ao import'.'classe no css'} */}
@@ -6,6 +7,7 @@ export default function Styles(){
   return (
 
     <div className={styles.purple}>
+      <Link href='/'>Voltar</Link>
       <h1>Estilo usando CSS Módulos.</h1>
     </div>
 

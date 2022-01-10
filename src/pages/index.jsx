@@ -1,9 +1,10 @@
+import Link from 'next/link'
+
 export default function Home(){
 
   return (
     <div>
-      <h1>Hello World</h1>
-      <p>Estamos usando o framework <b>Next.js</b></p>
+      <Link href='/styles'>Styles</Link>
     </div>
   );
 
