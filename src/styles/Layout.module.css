@@ -1,0 +1,30 @@
+.layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+  color: #eee;
+  font-weight: bold;
+}
+.header h1{
+  font-size: 1.5rem; 
+  margin-right: 10px;
+}
+.header a {
+  padding: 5px 15px;
+  transition: 0.1s linear;
+  background-color: #531599;
+}
+.header a:hover {
+  background-color: #401570;
+}
+
+.content {
+  padding: 0px 25px;
+  height: 100%;
+}

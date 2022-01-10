@@ -1,5 +1,10 @@
 .purple {
-  height: 50vh;
-  background-color: #390772;
+  height: 100%;
+  background-color: #531599;
   color: #eeeeee;
+  margin: 0;
+}
+
+.purple .content {
+  padding: 10px 15px;
 }
