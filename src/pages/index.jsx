@@ -15,6 +15,7 @@ export default function Home(){
       <Nav url='/jsx' title='JSX' color='#D2691E' />
       <Nav url='/navigator' title='Navegação #1' color='#B22222' />
       <Nav url='/client/sp-1-02/001' title='Navegação #2' color='#DC143C' />
+      <Nav url='/state' title='Component with State' color='#7B68EE' />
     </div>
   );
 
