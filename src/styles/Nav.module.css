@@ -1,0 +1,10 @@
+.nav {
+  padding: 30px;
+  margin: 10px;
+  border-radius: 10px;
+
+  color: #eee;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
