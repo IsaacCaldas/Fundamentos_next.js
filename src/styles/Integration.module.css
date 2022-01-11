@@ -1,0 +1,52 @@
+.Integration{
+  margin: 20px;
+}
+
+.Integration h2{
+  margin-bottom: 20px;
+  color: #6d25be;;
+}
+
+.Integration li{
+  margin: 0px 0px 10px 0px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #464646;
+}
+
+.Integration span{
+  margin-left: 10px;
+  color: #a7a7a7;
+}
+
+.Integration button{
+  margin: 10px 0px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #eee;
+  background-color: #531599;
+
+  transition: 0.2s linear;
+  cursor: pointer;
+}
+
+.Integration button:hover{
+  background-color: #6a1cc2;
+}
+
+.Integration input{
+  outline: none;
+  padding: 10px 5px;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  margin-right: 20px;
+  background: #444;
+  color: #eee;
+  font-size: 1.1rem;
+}

@@ -10,7 +10,7 @@ export default function handler(req, res){
 
 function handleGet(req, res){
   res.status(204).json({
-    id: 001,
+    id: 1,
     nameUser: 'Isaac',
     email: 'isaacadm@adm.com', 
     admin: true
